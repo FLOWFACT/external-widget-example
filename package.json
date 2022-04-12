@@ -1,0 +1,29 @@
+{
+  "name": "external-widget-example",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --port 3003",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "resolutions": {
+    "esbuild": "0.14.34"
+  },
+  "dependencies": {
+    "@flowfact/api-services": "70.20220407.317",
+    "@flowfact/utils": "^6.20220301.177",
+    "post-robot": "10.0.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@flowfact/types": "^10.20220322.224",
+    "@types/post-robot": "^10.0.3",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.0"
+  }
+}

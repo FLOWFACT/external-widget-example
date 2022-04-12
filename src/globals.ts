@@ -1,0 +1,1 @@
+export const __MODULE_KEY__ = 'YOUR_UNIQUE_KEY_FOR_THIS_MODULE';

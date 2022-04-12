@@ -1,0 +1,28 @@
+
+.estate {
+  padding: 20px;
+  display: flex;
+  gap: 16px;
+}
+
+.estate > .image {
+  max-width: 150px;
+}
+
+.estate > .image > img {
+  width: 100%;
+}
+
+.estate > .data-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.estate > .data-container .headline {
+  margin: 4px 0;
+}
+
+.estate > .data-container > .item > .label {
+  color: #909090;
+  margin-right: 12px;
+}
